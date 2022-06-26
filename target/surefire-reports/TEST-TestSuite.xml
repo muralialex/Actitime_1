@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="77.314" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Actitime_1\src\test\resources\drivers\chromedriver_102.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Actitime_1\target\test-classes;C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Actitime_1\target\classes;C:\Users\uniqu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\uniqu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\uniqu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\uniqu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\uniqu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\uniqu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\uniqu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\uniqu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\uniqu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\uniqu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\uniqu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\uniqu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\uniqu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\uniqu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\uniqu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi\3.13\poi-3.13.jar;C:\Users\uniqu\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\uniqu\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\uniqu\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml\3.13\poi-ooxml-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.13\poi-ooxml-schemas-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\uniqu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\uniqu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\uniqu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\uniqu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\uniqu\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\uniqu\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\uniqu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\uniqu\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\uniqu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\uniqu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\uniqu\AppData\Local\Temp\surefire12512799225590825267\surefirebooter1291911933624757261.jar C:\Users\uniqu\AppData\Local\Temp\surefire12512799225590825267 2022-06-26T07-42-41_268-jvmRun1 surefire5806919456420684932tmp surefire_03540389301067201611tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Actitime_1\target\test-classes;C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Actitime_1\target\classes;C:\Users\uniqu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\uniqu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\uniqu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\uniqu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\uniqu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\uniqu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\uniqu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\uniqu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\uniqu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\uniqu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\uniqu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\uniqu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\uniqu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\uniqu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\uniqu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi\3.13\poi-3.13.jar;C:\Users\uniqu\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\uniqu\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\uniqu\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml\3.13\poi-ooxml-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.13\poi-ooxml-schemas-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\uniqu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\uniqu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\uniqu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\uniqu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\uniqu\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\uniqu\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\uniqu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\uniqu\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\uniqu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\uniqu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\uniqu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Actitime_1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\uniqu\AppData\Local\Temp\surefire12512799225590825267\surefirebooter1291911933624757261.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="uniqu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\uniqu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\uniqu\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Actitime_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\apache-maven-3.8.5\/bin;C:\Program Files\Java\jdk-11.0.13\/bin;C:\Program Files\Java\jdk-11.0.13\/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.13\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Users\uniqu\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\uniqu\AppData\Local\Programs\Python\Python310\;C:\Users\uniqu\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="login_ActiTime" classname="common_tests.CommonTest" time="10.403">
+    <failure message="expected [Enter Time-Track for] but found [Enter Time-Track fo r]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Enter Time-Track for] but found [Enter Time-Track fo r]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at common_tests.CommonTest.login_ActiTime(CommonTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[onTestStart=> login_ActiTime
+We navigated to SignIn Page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 9685
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1656209564.547][WARNING]: This version of ChromeDriver has not been tested with Chrome version 103.
+Jun 26, 2022 7:42:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createTasks[Task_1_](1)" classname="enter_TimeTrack.CreateCustomer" time="5.697">
+    <system-out><![CDATA[registerData method
+6=========1
+getting out from Data Provider registerData
+onTestStart=> createTasks
+Flight operations
+Spaceship building
+Spaceship testing
+tasksCount_first.size()==> 20
+2022-06-26 07:43:11.299
+]]></system-out>
+  </testcase>
+  <testcase name="createTasks[Task_2_](2)" classname="enter_TimeTrack.CreateCustomer" time="5.839">
+    <system-out><![CDATA[onTestSuccess => createTasks
+onTestStart=> createTasks
+Flight operations
+Spaceship building
+Spaceship testing
+tasksCount_first.size()==> 20
+2022-06-26 07:43:17.128
+]]></system-out>
+  </testcase>
+  <testcase name="createTasks[Task_3_](3)" classname="enter_TimeTrack.CreateCustomer" time="5.788">
+    <system-out><![CDATA[onTestSuccess => createTasks
+onTestStart=> createTasks
+Flight operations
+Spaceship building
+Spaceship testing
+tasksCount_first.size()==> 20
+2022-06-26 07:43:22.949
+]]></system-out>
+  </testcase>
+  <testcase name="createTasks[Task_4_](4)" classname="enter_TimeTrack.CreateCustomer" time="5.769">
+    <system-out><![CDATA[onTestSuccess => createTasks
+onTestStart=> createTasks
+Flight operations
+Spaceship building
+Spaceship testing
+tasksCount_first.size()==> 20
+2022-06-26 07:43:28.74
+]]></system-out>
+  </testcase>
+  <testcase name="createTasks[Task_5_](5)" classname="enter_TimeTrack.CreateCustomer" time="5.739">
+    <system-out><![CDATA[onTestSuccess => createTasks
+onTestStart=> createTasks
+Flight operations
+Spaceship building
+Spaceship testing
+tasksCount_first.size()==> 20
+2022-06-26 07:43:34.509
+]]></system-out>
+  </testcase>
+</testsuite>

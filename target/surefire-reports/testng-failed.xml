@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ActiTime_Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="common_tests.CommonTest">
+        <methods>
+          <include name="login_ActiTime"/>
+          <include name="closeConnection"/>
+          <include name="setUp"/>
+          <include name="initialSetUp"/>
+          <include name="setUpTestCase"/>
+        </methods>
+      </class> <!-- common_tests.CommonTest -->
+      <class name="reports.Reports">
+        <methods>
+          <include name="report"/>
+          <include name="closeConnection"/>
+          <include name="setUp"/>
+          <include name="setUpTestCase"/>
+          <include name="initialSetUp"/>
+        </methods>
+      </class> <!-- reports.Reports -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [ActiTime_Suite] -->
